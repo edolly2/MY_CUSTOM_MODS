@@ -1,0 +1,176 @@
+/************GLOBAL*************/
+/*******************************/
+/*******************************/
+/*+++++++++++++++++++++++++++++*/
+
+@import url(https://fonts.googleapis.com/css2?family=Montserrat);
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+p, ul, li {
+    padding: 0;
+    margin: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#page {
+    height: 100%;
+    width: 100%;
+}
+/*******************************/
+/*******************************/
+/*******************************/
+/*+++++++++++++++++++++++++++++*/
+
+.div-form-cont {
+    width: 30vw;
+    height: 90vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.form-form-cont {
+    height: 90%;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.form-title-cont {
+    width: 100%;
+    text-align: center;
+}
+
+form h2 {
+    font-size: clamp(3rem, 3.6vw, 6rem);
+    padding: 0 2rem 3rem 2rem;
+    margin-top: -1rem;
+}
+
+.text-input {
+    width: 100%;
+    border-radius: 5px;
+    min-height: 3rem;
+    padding: 0.5rem 0;
+    text-indent: 30px;
+    cursor: text;
+}
+
+.text-label, .or, .text-input, .soci {
+    font-size: clamp(1.6rem, 1.5vw, 2.4rem);
+}
+
+
+.input-icons {
+    position: absolute;
+    width: 10%;
+    margin: 1rem;
+    font-size: clamp(1.6rem, 1.5vw, 2.4rem);
+    display: flex;
+    align-items: center;
+    cursor: text;
+}
+
+.signin-btn {
+    width: 80%;
+    padding: 1rem 0;
+    margin: 2rem 0 0.5rem 0;
+    cursor: pointer;
+}
+
+.or {
+    
+}
+
+.forgot {
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+#password {
+    margin-bottom: 0.5rem;
+}
+
+.div-btm-btns {
+    width: 100%;
+    text-align: center;
+}
+
+.social-btns {
+    min-width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.soci {
+    margin-right: 15%;
+    border-radius: 6px;
+}
+
+.facebook-btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#remember, .remember {
+    cursor: pointer;
+}
+
+.exit-cont {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    font-size: clamp(1.6rem, 1.5vw, 2.4rem);
+}
+
+.exit {
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+}
